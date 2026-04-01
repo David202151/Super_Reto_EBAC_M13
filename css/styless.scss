@@ -1,3 +1,12 @@
+@media (prefers-color-scheme: dark) {
+        body{
+            background-color: #000000;
+            color: white;
+            .card{
+                color: #000000;
+            }
+        }
+    }
 .card {
     &--product {
         display: flex;
@@ -44,4 +53,5 @@
         }
         }
     }
-    }
+
+}
